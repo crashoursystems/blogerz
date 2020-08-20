@@ -34,8 +34,10 @@ Route::group($groupData, function(){
 Auth::routes();
 
 Route::get('/career', 'CareerController@index');
+Route::get('/ref/{ref}', 'CareerController@regonref');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('careerexcel', 'CareerExcelController');
+
 Route::get('/', function () {
     return view('welcome');
 });

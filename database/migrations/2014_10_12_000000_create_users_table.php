@@ -17,13 +17,10 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-<<<<<<< HEAD
             $table->float('money')->default(0);
             $table->boolean('admin')->default(false);
             $table->boolean('access')->default(false);
             $table->string('instagram');
-=======
->>>>>>> 2a58854387a6305906244938b40db8e53d1801a1
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
