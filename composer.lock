@@ -1,10 +1,17 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
+<<<<<<< HEAD
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "content-hash": "e107b62251edf95ed1cff5fb4bf6ea19",
+=======
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d0c0458cd7bf0aa562d0e4f09f6d9d59",
+>>>>>>> 2a58854387a6305906244938b40db8e53d1801a1
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -923,6 +930,7 @@
             "time": "2020-08-11T19:28:08+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "laravel/ui",
             "version": "v2.1.0",
             "source": {
@@ -978,6 +986,8 @@
             "time": "2020-06-30T20:56:33+00:00"
         },
         {
+=======
+>>>>>>> 2a58854387a6305906244938b40db8e53d1801a1
             "name": "league/commonmark",
             "version": "1.5.3",
             "source": {

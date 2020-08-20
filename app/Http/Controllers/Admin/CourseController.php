@@ -30,7 +30,7 @@ class CourseController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request) 
     {
         $path = $request->file('path')->store('uploads', 'public');
         course::create([

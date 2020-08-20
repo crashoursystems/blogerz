@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+<<<<<<< HEAD
 Route::get('', function () {
     return view('welcome');
 });
@@ -30,3 +31,8 @@ Route::group($groupData, function(){
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+=======
+Route::get('/', function () {
+    return view('welcome');
+});
+>>>>>>> 2a58854387a6305906244938b40db8e53d1801a1
